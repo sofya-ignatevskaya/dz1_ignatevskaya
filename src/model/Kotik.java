@@ -119,7 +119,7 @@ public class Kotik {
 
     public void liveAnotherDay() {
         for (int i = 0; i < 24; i++) {
-           // System.out.println(i);
+           System.out.print(i+ ": ");
             if (this.satiety > 0) {
                 Random random = new Random();
                 int r = random.nextInt(5) + 1;

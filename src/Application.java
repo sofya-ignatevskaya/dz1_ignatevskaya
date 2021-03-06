@@ -9,6 +9,8 @@ public class Application {
         System.out.println("\nName is " + kotik1.getName() + ". Weight is " + kotik1.getWeight() + "\n");
         System.out.println(kotik1.equals(kotik2));
         System.out.println();
+        kotik2.eat(30);
+        System.out.println();
         Kotik.getCount();
     }
 
